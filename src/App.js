@@ -5,6 +5,7 @@ import ExpenseForm from "./components/ExpenseForm";
 import ExpenseList from "./components/ExpenseList";
 import uuid from "uuid/v4";
 
+//local storage
 const initialExpenses = localStorage.getItem("expenses")
   ? JSON.parse(localStorage.getItem("expenses"))
   : [];
